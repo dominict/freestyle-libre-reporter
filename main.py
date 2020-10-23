@@ -108,3 +108,6 @@ def generate_report():
 def error_404(error):
     """Return a custom 404 error."""
     return 'Sorry, nothing at this URL.'
+
+if __name__=="__main__":
+    app.run(debug=True)
